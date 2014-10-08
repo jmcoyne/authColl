@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  classCVCCell.h
 //  authColl
 //
 //  Created by Joan Coyne on 10/8/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface classCVCCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *classXSmallImage;
 
 @end
-
