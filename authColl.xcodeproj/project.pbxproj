@@ -29,6 +29,7 @@
 		18956BDE19E5D2E1006EC683 /* IMG_0201.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18956BD619E5D2E1006EC683 /* IMG_0201.jpg */; };
 		18956BDF19E5D2E1006EC683 /* IMG_0204.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18956BD719E5D2E1006EC683 /* IMG_0204.jpg */; };
 		18956BE119E5D2FE006EC683 /* mzingabeeCloseup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18956BE019E5D2FE006EC683 /* mzingabeeCloseup.jpg */; };
+		18DD646A19E6D16A006002D4 /* AllClassesCLasslistCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD646919E6D16A006002D4 /* AllClassesCLasslistCVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		18956BD619E5D2E1006EC683 /* IMG_0201.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0201.jpg; sourceTree = "<group>"; };
 		18956BD719E5D2E1006EC683 /* IMG_0204.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0204.jpg; sourceTree = "<group>"; };
 		18956BE019E5D2FE006EC683 /* mzingabeeCloseup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mzingabeeCloseup.jpg; path = ../mzingabeeCloseup.jpg; sourceTree = "<group>"; };
+		18DD646819E6D16A006002D4 /* AllClassesCLasslistCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllClassesCLasslistCVC.h; sourceTree = "<group>"; };
+		18DD646919E6D16A006002D4 /* AllClassesCLasslistCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllClassesCLasslistCVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 			children = (
 				1857F96219E5B4F400A87AD2 /* ClasslistCVC.h */,
 				1857F96319E5B4F400A87AD2 /* ClasslistCVC.m */,
+				18DD646819E6D16A006002D4 /* AllClassesCLasslistCVC.h */,
+				18DD646919E6D16A006002D4 /* AllClassesCLasslistCVC.m */,
 				1857F92019E575A200A87AD2 /* AppDelegate.h */,
 				1857F92119E575A200A87AD2 /* AppDelegate.m */,
 				1857F92919E575A200A87AD2 /* Main.storyboard */,
@@ -303,6 +308,7 @@
 				1857F94B19E5766800A87AD2 /* APIFetcher.m in Sources */,
 				1857F94F19E576E100A87AD2 /* LandingPageVC.m in Sources */,
 				1857F94719E575F800A87AD2 /* AuthViewController.m in Sources */,
+				18DD646A19E6D16A006002D4 /* AllClassesCLasslistCVC.m in Sources */,
 				1857F92519E575A200A87AD2 /* authColl.xcdatamodeld in Sources */,
 				1857F96719E5BAA800A87AD2 /* classCVCCell.m in Sources */,
 				1857F92219E575A200A87AD2 /* AppDelegate.m in Sources */,

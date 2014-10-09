@@ -26,34 +26,16 @@
 }
 
 
-- (void)viewDidLoad
+#pragma mark - abstract-ish  class fetch classes happens in subclass viewDidLoad
+// whenever our Model is set, must update our View
+
+- (void)setClasses:(NSMutableArray *)classes
 {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    //Set up dummy pictures
-    //make this abstract later on, and fill in with API?
-    
-    _randomImages = [@[@"mzingabeeCloseup.jpg",
-                       @"IMG_0140.jpg",
-                       @"IMG_0187.jpg",
-                       @"IMG_0201.jpg",
-                       @"IMG_0204.jpg",
-                       @"IMG_0223.jpg",
-                       @"IMG_0561.jpg",
-                       @"IMG_0066.jpg",
-                       @"IMG_0095.jpg"] mutableCopy];
-    
-    NSDictionary *class = [[NSDictionary alloc] initWithObjectsAndKeys:
-                           @"name", @"Great Class",
-                           @"description", @"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus sapien, commodo vestibulum luctus quis, porttitor ac felis. Cras fermentum mi arcu, non vehicula dolor pharetra vitae. Donec vitae leo quis dolor feugiat tempor aliquam cursus est. Morbi quis posuere urna, ut pretium nulla. In velit dui, rutrum vitae laoreet a, blandit tempor dui. Donec sollicitudin accumsan lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-                           @"image", @"mzingabeeCloseup.jpg",
-                           @"created_at", @"Last Week",
-                           @"updated_at", @"Today",
-                           @"media", @"myURL",
-                           @"commentsCount", @"5", nil];
-    
-    
+    //_randomImages = randomImages;
+     _classes = classes;
+    [self.collectionView  reloadData];
 }
+
 #pragma mark -
 #pragma mark UICollectionViewDataSource
 
@@ -65,7 +47,9 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return _randomImages.count;
+    NSLog(@"How many Classes? %d", _classes.count);
+    return _classes.count;
+    
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
@@ -75,10 +59,16 @@
                             dequeueReusableCellWithReuseIdentifier:@"ClassCell"
                             forIndexPath:indexPath];
     
+   /* works with random inage code
     UIImage *image;
     long row = [indexPath row];
     
     image = [UIImage imageNamed:_randomImages[row]];
+    myCell.classXSmallImage.image = image; */
+    NSDictionary *class = self.classes[indexPath.row];
+    
+    UIImage *image;
+    image = [UIImage imageNamed:[class valueForKeyPath:@"image"]];
     myCell.classXSmallImage.image = image;
 
     return myCell;
