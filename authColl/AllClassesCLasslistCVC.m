@@ -57,6 +57,8 @@
     NSLog(@"ItemList Results = %@", itemListResults);
     NSArray *listItems = [itemListResults valueForKeyPath:COURSES];
     NSLog(@"listItems Results = %@", listItems);
+        self.classes = listItems;
+
     // update the Model (and thus our UI), but do so back on the main queue
     dispatch_async(dispatch_get_main_queue(), ^{
     //[self.refreshControl endRefreshing]; // stop the spinner

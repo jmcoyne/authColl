@@ -32,7 +32,7 @@
 - (void)setClasses:(NSMutableArray *)classes
 {
     //_randomImages = randomImages;
-     _classes = classes;
+    _classes = classes;
     [self.collectionView  reloadData];
 }
 
@@ -50,6 +50,7 @@
     NSLog(@"How many Classes? %d", _classes.count);
     return _classes.count;
     
+    
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
@@ -59,33 +60,36 @@
                             dequeueReusableCellWithReuseIdentifier:@"ClassCell"
                             forIndexPath:indexPath];
     
-   /* works with random inage code
-    UIImage *image;
+   // works with random inage code
+   /* UIImage *image;
     long row = [indexPath row];
     
     image = [UIImage imageNamed:_randomImages[row]];
     myCell.classXSmallImage.image = image; */
-    NSDictionary *class = self.classes[indexPath.row];
+
+   NSDictionary *class = self.classes[indexPath.row];
     
     UIImage *image;
+    NSString *imageName = [class valueForKeyPath:@"image"];
+    NSLog(@"Here's my name %@", imageName);
     image = [UIImage imageNamed:[class valueForKeyPath:@"image"]];
-    myCell.classXSmallImage.image = image;
-
+    // image = [UIImage imageNamed:imageName];
+    myCell.imageView.image = image;
     return myCell;
 }
 
 #pragma mark -
 #pragma mark UICollectionViewDelegate
 
-/*-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
  {
  UICollectionViewFlowLayout *myLayout =
  [[UICollectionViewFlowLayout alloc]init];
  
  myLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
  [self.collectionView setCollectionViewLayout:myLayout animated:YES];
- }*/
--(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+ }
+/*-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     long row = [indexPath row];
     
@@ -94,7 +98,7 @@
     NSArray *deletions = @[indexPath];
     
     [self.collectionView deleteItemsAtIndexPaths:deletions];
-}
+} */
 
 
 

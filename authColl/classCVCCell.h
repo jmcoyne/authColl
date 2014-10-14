@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface classCVCCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *classXSmallImage;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

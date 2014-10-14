@@ -30,6 +30,7 @@
 		18956BDF19E5D2E1006EC683 /* IMG_0204.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18956BD719E5D2E1006EC683 /* IMG_0204.jpg */; };
 		18956BE119E5D2FE006EC683 /* mzingabeeCloseup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18956BE019E5D2FE006EC683 /* mzingabeeCloseup.jpg */; };
 		18DD646A19E6D16A006002D4 /* AllClassesCLasslistCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD646919E6D16A006002D4 /* AllClassesCLasslistCVC.m */; };
+		18F1DA5819EDB61B0071B952 /* SingleClassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1DA5719EDB61B0071B952 /* SingleClassVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		18956BE019E5D2FE006EC683 /* mzingabeeCloseup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mzingabeeCloseup.jpg; path = ../mzingabeeCloseup.jpg; sourceTree = "<group>"; };
 		18DD646819E6D16A006002D4 /* AllClassesCLasslistCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllClassesCLasslistCVC.h; sourceTree = "<group>"; };
 		18DD646919E6D16A006002D4 /* AllClassesCLasslistCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllClassesCLasslistCVC.m; sourceTree = "<group>"; };
+		18F1DA5619EDB61B0071B952 /* SingleClassVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleClassVC.h; sourceTree = "<group>"; };
+		18F1DA5719EDB61B0071B952 /* SingleClassVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleClassVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				1857F92019E575A200A87AD2 /* AppDelegate.h */,
 				1857F92119E575A200A87AD2 /* AppDelegate.m */,
 				1857F92919E575A200A87AD2 /* Main.storyboard */,
+				18F1DA5619EDB61B0071B952 /* SingleClassVC.h */,
+				18F1DA5719EDB61B0071B952 /* SingleClassVC.m */,
 				1857F96519E5BAA800A87AD2 /* classCVCCell.h */,
 				1857F96619E5BAA800A87AD2 /* classCVCCell.m */,
 				1857F92C19E575A200A87AD2 /* Images.xcassets */,
@@ -313,6 +318,7 @@
 				1857F96719E5BAA800A87AD2 /* classCVCCell.m in Sources */,
 				1857F92219E575A200A87AD2 /* AppDelegate.m in Sources */,
 				1857F91F19E575A200A87AD2 /* main.m in Sources */,
+				18F1DA5819EDB61B0071B952 /* SingleClassVC.m in Sources */,
 				1857F96419E5B4F400A87AD2 /* ClasslistCVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

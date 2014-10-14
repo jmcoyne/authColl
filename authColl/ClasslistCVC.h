@@ -11,7 +11,8 @@
 
 @interface ClasslistCVC : UICollectionViewController
 <UICollectionViewDataSource, UICollectionViewDelegate>
-@property (weak, nonatomic) IBOutlet UIImageView *classImage;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @property (strong, nonatomic) NSString *userEmail;
 @property (strong, nonatomic) NSString *userAuthToken;
