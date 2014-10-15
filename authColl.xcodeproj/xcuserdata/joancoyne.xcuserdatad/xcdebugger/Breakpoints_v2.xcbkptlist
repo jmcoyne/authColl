@@ -121,22 +121,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "authColl/ClasslistCVC.m"
-            timestampString = "434991089.620217"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "authColl/ClasslistCVC.h"
             timestampString = "435003687.534546"
             startingColumnNumber = "9223372036854775807"
@@ -145,38 +129,6 @@
             endingLineNumber = "28"
             landmarkName = "@interface ClasslistCVC"
             landmarkType = "2">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "authColl/ClasslistCVC.m"
-            timestampString = "434988561.571292"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "authColl/ClasslistCVC.m"
-            timestampString = "434988561.571292"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -202,27 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "authColl/ClasslistCVC.m"
-            timestampString = "434991089.620217"
+            timestampString = "435082681.679153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "authColl/ClasslistCVC.m"
-            timestampString = "434985785.619242"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "-numberOfSectionsInCollectionView:"
             landmarkType = "5">
          </BreakpointContent>
@@ -361,7 +297,7 @@
                   symbolName = "__38-[AllClassesCLasslistCVC fetchClasses]_block_invoke"
                   moduleName = "authColl"
                   urlString = "file:///Users/joancoyne/developer/authColl/authColl/AllClassesCLasslistCVC.m"
-                  timestampString = "435003688.119686"
+                  timestampString = "435082682.143263"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
@@ -375,7 +311,7 @@
                   symbolName = "__38-[AllClassesCLasslistCVC fetchClasses]_block_invoke_2"
                   moduleName = "authColl"
                   urlString = "file:///Users/joancoyne/developer/authColl/authColl/AllClassesCLasslistCVC.m"
-                  timestampString = "435003688.119985"
+                  timestampString = "435082682.143528"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "65"
@@ -407,7 +343,7 @@
                   symbolName = "__38-[AllClassesCLasslistCVC fetchClasses]_block_invoke"
                   moduleName = "authColl"
                   urlString = "file:///Users/joancoyne/developer/authColl/authColl/AllClassesCLasslistCVC.m"
-                  timestampString = "435003688.124927"
+                  timestampString = "435082682.144821"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
@@ -421,7 +357,7 @@
                   symbolName = "__38-[AllClassesCLasslistCVC fetchClasses]_block_invoke_2"
                   moduleName = "authColl"
                   urlString = "file:///Users/joancoyne/developer/authColl/authColl/AllClassesCLasslistCVC.m"
-                  timestampString = "435003688.125202"
+                  timestampString = "435082682.145068"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "65"
@@ -438,11 +374,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "authColl/ClasslistCVC.m"
-            timestampString = "434987799.474464"
+            timestampString = "435082681.679153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "-setClasses:"
             landmarkType = "5">
          </BreakpointContent>
@@ -454,27 +390,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "authColl/ClasslistCVC.m"
-            timestampString = "434987800.280553"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "-setClasses:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "authColl/ClasslistCVC.m"
-            timestampString = "434987800.960263"
+            timestampString = "435082681.679153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
             endingLineNumber = "36"
+            landmarkName = "-setClasses:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "authColl/ClasslistCVC.m"
+            timestampString = "435082681.679153"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "-setClasses:"
             landmarkType = "5">
          </BreakpointContent>
@@ -530,16 +466,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "authColl/ClasslistCVC.m"
-            timestampString = "434995132.574042"
+            timestampString = "435082681.679153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "-prepareForSegue:sender:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "authColl/ClasslistCVC.m"
+            timestampString = "435082681.679153"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "-prepareSingleClassViewController:toDisplayClass:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -10,6 +10,7 @@
 
 @interface SingleClassVC : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *scImageView;
+@property (strong, nonatomic) NSString  *image;
 @property (weak, nonatomic) IBOutlet UILabel *classTitle;
 @property (weak, nonatomic) IBOutlet UILabel *classDescription;
 @property (weak, nonatomic) IBOutlet UITextField *comments;

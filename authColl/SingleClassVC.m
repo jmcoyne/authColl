@@ -7,7 +7,15 @@
 //
 
 #import "SingleClassVC.h"
+#import "ClasslistCVC.h"
 
 @implementation SingleClassVC
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
+}
 
 @end

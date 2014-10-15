@@ -7,6 +7,8 @@
 //
 
 #import "ClasslistCVC.h"
+#import "SingleClassVC.h"
+#import "LandingPageVC.h"
 
 @interface ClasslistCVC ()
 
@@ -99,6 +101,42 @@
     
     [self.collectionView deleteItemsAtIndexPaths:deletions];
 } */
+// prepares the given ImageViewController to show the given photo
+// used either when segueing to an ImageViewController
+//   or when our UISplitViewController's Detail view controller is an ImageViewController
+
+- (void)prepareSingleClassViewController:(SingleClassVC *)scvc toDisplayClass:(NSDictionary *)class
+{
+    
+    scvc.image = [class valueForKey:@"image"];
+    scvc.classTitle = [class valueForKey:@"name"];
+    scvc.classDescription = [class valueForKey:@"description"];
+    scvc.scImageView.image = [UIImage imageNamed:scvc.image];
+
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    NSLog(@"Preparing to Segue ClassList");
+     if ([sender isKindOfClass:[UICollectionViewCell class]]) {
+          NSIndexPath *indexPath = [self.collectionView indexPathForCell:sender];
+         if (indexPath) {
+             // found it ... are we doing the Display class segue?
+             if ([segue.identifier isEqualToString:@"toOneClass"]) {
+                 // yes ... is the destination a ViewController?
+                 if ([segue.destinationViewController isKindOfClass:[UIViewController class]]) {
+                     // yes ... then we know how to prepare for that segue
+                    
+                     [self prepareSingleClassViewController:segue.destinationViewController
+                                       toDisplayClass:self.classes[indexPath.row]];
+                 }
+             }
+         }
+         
+     }
+}
 
 
 
