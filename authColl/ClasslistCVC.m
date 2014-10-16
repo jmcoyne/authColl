@@ -49,7 +49,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    NSLog(@"How many Classes? %d", _classes.count);
+  
     return _classes.count;
     
     
@@ -109,8 +109,8 @@
 {
     
     scvc.image = [class valueForKey:@"image"];
-    scvc.classTitle = [class valueForKey:@"name"];
-    scvc.classDescription = [class valueForKey:@"description"];
+    scvc.classTitleLabelText = [class valueForKey:@"name"];
+    scvc.classDescriptionLabelText = [class valueForKey:@"description"];
     scvc.scImageView.image = [UIImage imageNamed:scvc.image];
 
 }
