@@ -83,13 +83,92 @@
     NSDictionary *class2 = [[NSDictionary alloc] initWithObjectsAndKeys:
                             @"Great 2 Class", @"name",
                             @"You hit me with a cricket bat. The way I see it, every life is a pile of good things and bad things.…hey.…the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant. Stop talking, brain thinking. Hush. It's a fez. I wear a fez now. Fezes are cool. ",  @"description",
-                            @"IMG_0140.jpg",  @"image",
+                            @"IMG_0187.jpg",  @"image",
                             @"Yesterday", @"created_at",
                             @"Today",@"updated_at",
                             @"myURL2", @"media",
                              @"3",  @"commentsCount",nil];
     
-    NSArray *listItems = [NSArray arrayWithObjects:class1, class2, nil ];
+    NSDictionary *class3 = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            @"Great 3 Class", @"name",
+                            @"Dantooine. They're on Dantooine. The more you tighten your grip, Tarkin, the more star systems will slip through your fingers. The plans you refer to will soon be back in our hands. Partially, but it also obeys your commands. Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley or wherever you're going. A tremor in the Force. The last time I felt it was in the presence of my old master.",  @"description",
+                            @"IMG_0140.jpg",  @"image",
+                            @"Yesterday", @"created_at",
+                            @"Today",@"updated_at",
+                            @"myURL3", @"media",
+                            @"8",  @"commentsCount",nil];
+    
+    NSDictionary *class4 = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            @"Great 4 Class", @"name",
+                            @"Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. But with the blast shield down, I can't even see! How am I supposed to fight?",  @"description",
+                            @"IMG_0201.jpg",  @"image",
+                            @"Yesterday", @"created_at",
+                            @"Today",@"updated_at",
+                            @"myURL3", @"media",
+                            @"11",  @"commentsCount",nil];
+
+    NSDictionary *class5 = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            @"Great 2 Class", @"name",
+                            @"You hit me with a cricket bat. The way I see it, every life is a pile of good things and bad things.…hey.…the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant. Stop talking, brain thinking. Hush. It's a fez. I wear a fez now. Fezes are cool. ",  @"description",
+                            @"IMG_0187.jpg",  @"image",
+                            @"Yesterday", @"created_at",
+                            @"Today",@"updated_at",
+                            @"myURL2", @"media",
+                            @"3",  @"commentsCount",nil];
+    
+    NSDictionary *class6 = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            @"Great 3 Class", @"name",
+                            @"Dantooine. They're on Dantooine. The more you tighten your grip, Tarkin, the more star systems will slip through your fingers. The plans you refer to will soon be back in our hands. Partially, but it also obeys your commands. Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley or wherever you're going. A tremor in the Force. The last time I felt it was in the presence of my old master.",  @"description",
+                            @"IMG_0223.jpg",  @"image",
+                            @"Yesterday", @"created_at",
+                            @"Today",@"updated_at",
+                            @"myURL3", @"media",
+                            @"8",  @"commentsCount",nil];
+    
+    NSDictionary *class7 = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            @"Great 4 Class", @"name",
+                            @"Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. But with the blast shield down, I can't even see! How am I supposed to fight?",  @"description",
+                            @"IMG_0561.jpg",  @"image",
+                            @"Yesterday", @"created_at",
+                            @"Today",@"updated_at",
+                            @"myURL3", @"media",
+                            @"11",  @"commentsCount",nil];
+    NSDictionary *class8 = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            @"Great 2 Class", @"name",
+                            @"You hit me with a cricket bat. The way I see it, every life is a pile of good things and bad things.…hey.…the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant. Stop talking, brain thinking. Hush. It's a fez. I wear a fez now. Fezes are cool. ",  @"description",
+                            @"IMG_0021.jpg",  @"image",
+                            @"Yesterday", @"created_at",
+                            @"Today",@"updated_at",
+                            @"myURL2", @"media",
+                            @"3",  @"commentsCount",nil];
+    
+    NSDictionary *class9 = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            @"Great 3 Class", @"name",
+                            @"Dantooine. They're on Dantooine. The more you tighten your grip, Tarkin, the more star systems will slip through your fingers. The plans you refer to will soon be back in our hands. Partially, but it also obeys your commands. Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley or wherever you're going. A tremor in the Force. The last time I felt it was in the presence of my old master.",  @"description",
+                            @"IMG_0095.jpg",  @"image",
+                            @"Yesterday", @"created_at",
+                            @"Today",@"updated_at",
+                            @"myURL3", @"media",
+                            @"8",  @"commentsCount",nil];
+    
+    NSDictionary *class10 = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            @"Great 4 Class", @"name",
+                            @"Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. But with the blast shield down, I can't even see! How am I supposed to fight?",  @"description",
+                            @"IMG_0204.jpg",  @"image",
+                            @"Yesterday", @"created_at",
+                            @"Today",@"updated_at",
+                            @"myURL3", @"media",
+                            @"11",  @"commentsCount",nil];
+    
+    
+
+    
+    
+
+    
+    
+    
+    NSArray *listItems = [NSArray arrayWithObjects:class1, class2, class3, class4, class5, class6, class7, class8, class9, class10,  nil ];
 
     self.classes = listItems;
 }

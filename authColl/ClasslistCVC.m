@@ -26,7 +26,11 @@
     }
     return self;
 }
-
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+}
 
 #pragma mark - abstract-ish  class fetch classes happens in subclass viewDidLoad
 // whenever our Model is set, must update our View
@@ -87,6 +91,7 @@
  {
  UICollectionViewFlowLayout *myLayout =
  [[UICollectionViewFlowLayout alloc]init];
+
  
  myLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
  [self.collectionView setCollectionViewLayout:myLayout animated:YES];
@@ -105,6 +110,26 @@
 // used either when segueing to an ImageViewController
 //   or when our UISplitViewController's Detail view controller is an ImageViewController
 
+/* - (CGSize) collectionView:(UICollectionView *)collectionView
+                   layout:(UICollectionViewLayout *)collectionViewLayout
+   sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return CGSizeMake(204.0f,204.0f);
+}
+
+- (CGFloat) collectionView:(UICollectionView *)collectionView
+                    layout:(UICollectionViewLayout *)collectionViewLayout
+minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
+{
+    return 2.0f;
+}
+
+- (CGFloat) collectionView:(UICollectionView *)collectionView
+                    layout:(UICollectionViewLayout *)collectionViewLayout
+minimumLineSpacingForSectionAtIndex:(NSInteger)section
+{
+    return 2.0f;
+} */
 - (void)prepareSingleClassViewController:(SingleClassVC *)scvc toDisplayClass:(NSDictionary *)class
 {
     
@@ -114,6 +139,7 @@
     scvc.scImageView.image = [UIImage imageNamed:scvc.image];
 
 }
+
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
