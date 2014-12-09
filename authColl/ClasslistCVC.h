@@ -23,6 +23,9 @@
 
 @property (strong, nonatomic) NSMutableArray *randomImages;
 @property (strong, nonatomic) NSDictionary *class;
-@property (nonatomic, strong) NSArray *classes; // of class NSDictionarys
+@property (nonatomic, strong) NSMutableArray *classes; // of all class type NSArrays
+@property (nonatomic, strong) NSMutableArray *myClasses; // of class NSDictionarys
+@property (nonatomic, strong) NSMutableArray *suggestedClasses; // of class NSDictionarys
+
 
 @end

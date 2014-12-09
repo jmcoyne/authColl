@@ -39,6 +39,8 @@
 {
     //_randomImages = randomImages;
     _classes = classes;
+     _myClasses = classes.firstObject;
+    _suggestedClasses = classes.lastObject;
     [self.collectionView  reloadData];
 }
 
@@ -48,13 +50,18 @@
 -(NSInteger)numberOfSectionsInCollectionView:
 (UICollectionView *)collectionView
 {
-    return 1;
+    NSLog(@"Here's sections: %d", _classes.count);
+
+    return _classes.count;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
+    //return the number of classes in this section
+    NSLog(@"Here's my name %d", [self.classes[section] count]);
+
+    return [self.classes[section] count];
   
-    return _classes.count;
     
     
 }
@@ -73,7 +80,7 @@
     image = [UIImage imageNamed:_randomImages[row]];
     myCell.classXSmallImage.image = image; */
 
-   NSDictionary *class = self.classes[indexPath.row];
+   NSDictionary *class = self.classes[indexPath.section][indexPath.row];
     
     UIImage *image;
     NSString *imageName = [class valueForKeyPath:@"image"];
@@ -94,8 +101,9 @@
 
  
  myLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+     myLayout.estimatedItemSize = CGSizeMake(144, 144);
  [self.collectionView setCollectionViewLayout:myLayout animated:YES];
- }
+     }
 /*-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     long row = [indexPath row];

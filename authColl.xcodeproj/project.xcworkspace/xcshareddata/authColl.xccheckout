@@ -6,19 +6,15 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>1EC75AD8-C515-4985-80C1-549D7D3EF078</string>
-	<key>IDESourceControlProjectName</key>
-	<string>authColl</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>98D9977F47EFC969D006D3BF7BBE36A5EF7D2DCA</key>
 		<string>https://github.com/jmcoyne/authColl.git</string>
 	</dict>
-	<key>IDESourceControlProjectPath</key>
-	<string>authColl.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>98D9977F47EFC969D006D3BF7BBE36A5EF7D2DCA</key>
-		<string>../..</string>
+		<string>authColl/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/jmcoyne/authColl.git</string>
